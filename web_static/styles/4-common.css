@@ -7,6 +7,6 @@ body {
 }
 .container {
     background-color: lawngreen;
-    width: 1000px;
+    max-width: 1000px;
     margin: 30px auto;
 }
