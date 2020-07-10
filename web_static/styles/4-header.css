@@ -1,0 +1,13 @@
+header {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+}
+header div {
+    padding-left: 20px;
+    width: 120px;
+    background-image: url(../images/logo.png);
+}
