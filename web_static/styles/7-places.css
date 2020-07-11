@@ -50,7 +50,6 @@
     background-color: #fafafa;
     padding: 30px;
     display: none;
-    justify-content: space-between;
 }
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
@@ -58,4 +57,25 @@
 }
 .filters .popover h2 {
     font-size: 16px;
+}
+.places h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.places div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.places article h2 {
+    font-size: 30px;
 }

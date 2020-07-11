@@ -51,7 +51,6 @@
     background-color: #fafafa;
     padding: 30px;
     display: none;
-    justify-content: space-between;
 }
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
