@@ -21,36 +21,41 @@
 .filters button:hover {
     opacity: 90%;
 }
+.filters .amenities, .locations {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
 .filters .locations {
-    height: 100%;
-    width: 25%;
     border-right: 1px solid #dddddd;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
 }
-.filters .amenities {
-    height: 100%;
-    width: 25%;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-}
-.filters .locations h3 {
+.filters h3 {
     font-weight: 600;
-    margin: 15px auto 4px 50px;
+    margin: 11px auto 4px 50px;
 }
-.filters .amenities h3 {
-    font-weight: 600;
-    margin: 15px auto 4px 50px;
-}
-.filters .locations h4 {
+.filters h4{
     font-weight: 400;
     font-size: 14px;
     margin: 4px auto auto 50px;
 }
-.filters .amenities h4 {
-    font-weight: 400;
-    font-size: 14px;
-    margin: 4px auto auto 50px;
+.filters .popover li {
+    list-style-type: none;
+}
+.filters .locations .popover li li,
+.filters .amenities .popover li {
+    margin-bottom: 10px;
+}
+.filters .popover {
+    border: 1px solid #dddddd;
+    background-color: #fafafa;
+    padding: 30px;
+    display: none;
+    justify-content: space-between;
+}
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+    display: block;
+}
+.filters .popover h2 {
+    font-size: 16px;
 }
