@@ -21,24 +21,24 @@
 .filters button:hover {
     opacity: 90%;
 }
-.filters .locations,
-.filters .amenities {
+.locations,
+.amenities {
     height: 100%;
     width: 25%;
     display: flex;
     align-items: left;
     flex-direction: column;
 }
-.filters .locations {
+.locations {
     border-right: 1px solid #dddddd;
 }
-.filters .locations h3,
-.filters .amenities h3 {
+.locations h3,
+.amenities h3 {
     font-weight: 600;
-    margin: 11px auto 4px 50px;
+    margin: 13px auto 4px 50px;
 }
-.filters .locations h4,
-.filters .amenities h4 {
+.locations h4,
+.amenities h4 {
     font-weight: 400;
     font-size: 14px;
     margin: 4px auto auto 50px;

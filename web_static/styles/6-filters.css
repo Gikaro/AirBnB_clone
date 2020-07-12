@@ -21,41 +21,42 @@
 .filters button:hover {
     opacity: 90%;
 }
-.filters .amenities,
-.filters .locations {
+.amenities, .locations {
     height: 100%;
     width: 25%;
-    display: inline-block;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
-.filters .locations {
+.locations {
     border-right: 1px solid #dddddd;
 }
 .filters h3 {
     font-weight: 600;
-    margin: 11px auto 4px 50px;
+    margin: 13px auto 4px 50px;
 }
 .filters h4{
     font-weight: 400;
     font-size: 14px;
     margin: 4px auto auto 50px;
 }
-.filters .popover li {
+.popover li {
     list-style-type: none;
 }
-.filters .locations .popover li li,
-.filters .amenities .popover li {
+.popover li li,
+.popover li {
     margin-bottom: 10px;
 }
-.filters .popover {
+.popover {
     border: 1px solid #dddddd;
     background-color: #fafafa;
     padding: 30px;
     display: none;
 }
-.filters .locations:hover .popover,
-.filters .amenities:hover .popover {
+.locations:hover .popover,
+.amenities:hover .popover {
     display: block;
 }
-.filters .popover h2 {
+.popover h2 {
     font-size: 16px;
 }
